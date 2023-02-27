@@ -1,0 +1,120 @@
+/* This the the main CSS file that is applied to the three files namely 1.html, 2.html & 3.html*/
+body {
+    background-color: whitesmoke;
+    background-image: url(https://img.freepik.com/free-photo/ripped-piece-white-paper_1194-7546.jpg?w=2000); 
+    background-repeat: repeat;
+}
+
+/* CSS for the respective header types */
+h1 {
+    color: green;
+    background-color: darkorange;
+    text-decoration: underline;
+    text-align: center;
+    font-size: 300%;
+    font-family: sans-serif;
+    font-style: italic;
+    margin-top: 2em;
+    margin-bottom: 2em;
+    display: block;
+    font-weight: 900;
+    border: solid black;
+}
+
+h2 {
+    color: purple;
+    background-color: darkcyan;
+    text-decoration: underline;
+    text-align: center;
+    font-size: 225%;
+    font-family: sans-serif;
+    font-style: italic;
+    margin-top: 1.5em;
+    margin-bottom: 1.5em;
+    display: block;
+    font-weight: 800;
+    border: solid black;
+}
+
+h3 {
+    color: navy;
+    background-color: yellowgreen;
+    text-decoration: underline;
+    text-align: center;
+    font-size: 200%;
+    font-family: sans-serif;
+    font-style: italic;
+    margin-top: 1.5em;
+    margin-bottom: 1em;
+    display: block;
+    font-weight: 700;
+    border: solid black;
+}
+
+h4 {
+    color: teal;
+    background-color: darkmagenta;
+    text-decoration: underline;
+    text-align: center;
+    font-size: 135%;
+    font-family: sans-serif;
+    font-style: italic;
+    margin-top: 1em;
+    margin-bottom: 0.5em;
+    display: block;
+    font-weight: 600;
+    border: solid black;
+}
+
+h5 {
+    color: darkkhaki;
+    background-color: black;
+    text-decoration: underline;
+    text-align: center;
+    font-size: 100%;
+    font-family: sans-serif;
+    font-style: italic;
+    margin-top: 0.5em;
+    margin-bottom: 0em;
+    display: block;
+    font-weight: 500;
+    border: solid black;
+}
+
+/* CSS for the paragraphs*/
+p {
+    color: salmon;
+    font-family: sans-serif;
+    font-style: oblique;
+    font-size: 100%;
+    font-weight: 600;
+    background-color: beige;
+    text-indent: 2em;
+    text-align: left;
+    margin-top: 0.33em;
+    margin-bottom: 0.33em;
+    margin-left: 0.33em;
+    margin-right: 0.33em;
+}
+
+/*CSS for all the HYPERLINKS*/
+a:link {
+    color: plum;
+    text-decoration: underline;
+}
+
+a:visited {
+    color: navajowhite;
+    text-decoration: underline;
+}
+a:hover {
+    color: powderblue;
+    text-decoration: underline;
+}
+
+/* CSS for all the images*/
+img {
+    padding: 2%;
+    border: solid black;
+    border-radius: 7%;
+}
